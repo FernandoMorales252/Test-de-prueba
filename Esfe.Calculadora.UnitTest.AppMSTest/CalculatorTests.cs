@@ -1,0 +1,42 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ESfe.Calculadora;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ESfe.Calculadora.Tests
+{
+    [TestClass()]
+    public class CalculatorTests
+    {
+        [TestMethod()]
+        public void AddTest()
+        {
+            Calculator calculator = new Calculator();
+            double result = calculator.Add(5,3);
+            Assert.AreEqual(8 , result);
+        }
+
+        [TestMethod()]
+        public void SubtractTest()
+        {
+            Calculator calculator = new Calculator();
+            double result = calculator.Add(5, 3);
+            Assert.AreEqual(2, result);
+        }
+
+        [TestMethod()]
+        public void MultiplyTest()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void DivideTest()
+        {
+            Assert.Fail();
+        }
+    }
+}
