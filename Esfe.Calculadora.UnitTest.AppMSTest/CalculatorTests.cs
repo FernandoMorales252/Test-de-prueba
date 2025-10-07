@@ -23,20 +23,32 @@ namespace ESfe.Calculadora.Tests
         public void SubtractTest()
         {
             Calculator calculator = new Calculator();
-            double result = calculator.Add(5, 3);
+            double result = calculator.Subtract(5, 3);
             Assert.AreEqual(2, result);
         }
 
         [TestMethod()]
         public void MultiplyTest()
         {
-            Assert.Fail();
+            Calculator calculator = new Calculator();
+            double result = calculator.Multiply(5, 3);
+            Assert.AreEqual(15, result);
         }
 
         [TestMethod()]
         public void DivideTest()
         {
-            Assert.Fail();
+            Calculator calculator = new Calculator();
+            double result = calculator.Divide(4, 2);
+            Assert.AreEqual(2, result);
+        }
+
+        [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
+        public void DivideZeroByTest()
+        {
+            Calculator calculator = new Calculator();
+            double result = calculator.Divide(4, 0);
         }
     }
 }

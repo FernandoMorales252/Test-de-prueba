@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESfe.Calculadora", "ESfe.Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfe.Calculadora.UnitTest.AppMSTest", "Esfe.Calculadora.UnitTest.AppMSTest\Esfe.Calculadora.UnitTest.AppMSTest.csproj", "{FE615C8B-3C50-426C-A8BB-D82EF0C43AF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfe.Calculadora.UnitTest.AppxUnits", "Esfe.Calculadora.UnitTest.AppxUnits\Esfe.Calculadora.UnitTest.AppxUnits.csproj", "{385EDF5A-1F97-4771-8B6A-C43C549CDBBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FE615C8B-3C50-426C-A8BB-D82EF0C43AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE615C8B-3C50-426C-A8BB-D82EF0C43AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE615C8B-3C50-426C-A8BB-D82EF0C43AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385EDF5A-1F97-4771-8B6A-C43C549CDBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385EDF5A-1F97-4771-8B6A-C43C549CDBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385EDF5A-1F97-4771-8B6A-C43C549CDBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385EDF5A-1F97-4771-8B6A-C43C549CDBBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
